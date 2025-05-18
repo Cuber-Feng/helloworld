@@ -1,2 +1,2 @@
 # helloworld
-[website](https://cuber-feng.github.io/helloworld/){:target="_blank"}
+<https://cuber-feng.github.io/helloworld/>
