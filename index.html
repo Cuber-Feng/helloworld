@@ -12,7 +12,7 @@
             min-width: 524px;
             margin: 0 auto;
             padding: 0 5vw;
-            padding-top: 10%;
+            padding-top: 3%;
             /*     padding-left: 13%;
             padding-right: 13%;*/
             text-align: center;
@@ -20,7 +20,7 @@
 
         @media (min-width: 1201px) {
             body {
-                padding: 10% 0 0 0;
+                padding: 30px 0 0 0;
             }
         }
 
@@ -82,10 +82,29 @@
             font-size: 24px;
             font-family: serif;
         }
+
+        #clock {
+            font-size: 80px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;
+            
+        }
+
+        #date {
+            font-size: 24px;
+            color: #666;
+            margin-bottom: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            white-space: pre;
+        }
     </style>
 </head>
 
 <body>
+    <div id="clock">Loading...</div>
+    <div id="date">Loading...</div>
+
     <div class="iconset">
         <a href="https://www.google.com" target="_blank">
             <h3>Google</h3>
@@ -167,6 +186,31 @@
         <span>&nbsp;&nbsp; &nbsp;</span><a href="https://github.com/Cuber-Feng" target="_blank"><img
                 src="./source/github.svg" class="icon" title="GitHub"></a>
     </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+
+            // 时钟
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+
+            // Date
+            const year = now.getFullYear();
+            const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const day = String(now.getDate()).padStart(2, '0');
+            const weekdayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const formattedDate = `${monthNames[now.getMonth()]}-${day}, ${year}`;
+            const weekday = weekdayNames[now.getDay()];
+            document.getElementById('date').textContent = `${formattedDate}    ${weekday}`;
+        }
+
+        updateClock(); // 初始显示
+        setInterval(updateClock, 1000); // 每秒更新
+    </script>
 </body>
 
 <footer>
