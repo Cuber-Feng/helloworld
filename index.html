@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Todo List</title>
+  <style>
+    body { font-family: Arial; padding: 20px; max-width: 500px; margin: auto; }
+    input, button { padding: 10px; margin: 5px 0; width: 100%; }
+    ul { list-style: none; padding: 0; }
+    li { background: #f0f0f0; margin: 5px 0; padding: 10px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h2>📝 My Todo List</h2>
+  <input id="taskInput" type="text" placeholder="Enter a task" />
+  <button onclick="addTask()">Add Task</button>
+  <ul id="taskList"></ul>
+
+  <script>
+    function addTask() {
+      const task = document.getElementById("taskInput").value;
+      if (task.trim() === "") return;
+      const li = document.createElement("li");
+      li.textContent = task;
+      document.getElementById("taskList").appendChild(li);
+      document.getElementById("taskInput").value = "";
+    }
+  </script>
+</body>
+</html>
