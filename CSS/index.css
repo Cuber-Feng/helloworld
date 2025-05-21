@@ -7,12 +7,12 @@ body {
     padding: 0 5vw;
     padding-top: 3%;
     text-align: center;
-
 }
 
 @media (min-width: 1201px) {
     body {
         padding: 30px 0 0 0;
+        min-width: 320px;
     }
 }
 
@@ -22,9 +22,9 @@ a {
 
 h3 {
     text-align: center;
-    font-size: 24px;
-    margin-top: 8px;
-    margin-bottom: 24px;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 div {
@@ -32,7 +32,7 @@ div {
 }
 
 .icon {
-    width: 40px;
+    width: 2.5rem;
 }
 
 img {
@@ -79,7 +79,6 @@ footer {
     font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
     color: #333;
-
 }
 
 #date {
@@ -97,6 +96,46 @@ footer {
 }
 
 ::selection {
-  background: #ffcc00;
-  color: black; 
+    background: #ffcc00;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem 0 0 0;
+        background-color: #fff;
+        min-width: none;
+    }
+
+    .icon {
+        width: 3rem;
+    }
+
+    .iconset {
+        vertical-align: top;
+        border: 0px solid #333;
+        padding: 0 0 0 0;
+        height: auto;
+        background-color: transparent;
+        transition: box-shadow 0.3s ease;
+        border-radius: 0;
+    }
+
+    #clock {
+        font-size: 5rem;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    body {
+    margin: 0 auto;
+    padding: 0 5vw;
+    padding-top: 3%;
+    text-align: left;
+}
 }
