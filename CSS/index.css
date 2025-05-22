@@ -104,25 +104,38 @@ footer {
     body {
         padding: 1rem 0 0 0;
         background-color: #fff;
-        min-width: none;
+        min-width: 0;
+        max-width: 90vw;
+        margin: 0 auto;
+        text-align: left;
     }
 
     .icon {
-        width: 3rem;
+        width: 2.5rem;
     }
 
     .iconset {
         vertical-align: top;
-        border: 0px solid #333;
+        border: 0px;
         padding: 0 0 0 0;
         height: auto;
         background-color: transparent;
-        transition: box-shadow 0.3s ease;
         border-radius: 0;
     }
 
     #clock {
-        font-size: 5rem;
+        font-size: 3.2rem;
+    }
+
+    #date {
+        color: #27548A;
+        font-size: 1rem;
+
+    }
+
+    footer {
+        font-size: 1rem;
+        font-family: serif;
     }
 
     h3 {
@@ -132,10 +145,7 @@ footer {
         margin-bottom: 1.5rem;
     }
 
-    body {
-    margin: 0 auto;
-    padding: 0 5vw;
-    padding-top: 3%;
-    text-align: left;
-}
+    .onlypc {
+        display: none;
+    }
 }
