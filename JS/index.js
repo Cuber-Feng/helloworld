@@ -20,3 +20,68 @@ function updateClock() {
 
 updateClock(); // ini
 setInterval(updateClock, 1000); // update every second
+
+function goDark() {
+    if (!document.body.classList.contains("dark")) {
+        document.body.classList.remove("light");
+        document.body.classList.add("dark");
+
+        document.querySelectorAll("body *").forEach(el => {
+            el.classList.remove("light");
+            el.classList.add("dark");
+        });
+    }
+}
+
+function goLight() {
+    if (document.body.classList.contains("dark")) {
+        document.body.classList.remove("dark");
+        document.body.classList.add("light");
+
+        document.querySelectorAll("body *").forEach(el => {
+            el.classList.remove("dark");
+            el.classList.add("light");
+        });
+    }
+}
+
+window.onload = () => {
+    // check the device's mode
+    const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    if (isDark) {
+        goDark();
+    }
+}
+
+function toggleMode() {
+    if (document.body.classList.contains("dark")) {
+        document.body.classList.remove("dark");
+        document.body.classList.add("light");
+
+        document.querySelectorAll("body *").forEach(el => {
+            el.classList.remove("dark");
+            el.classList.add("light");
+        });
+    } else {
+        document.body.classList.remove("light");
+        document.body.classList.add("dark");
+
+        document.querySelectorAll("body *").forEach(el => {
+            el.classList.remove("light");
+            el.classList.add("dark");
+        });
+    }
+}
+
+const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+mediaQuery.addEventListener('change', (e) => {
+    const isDark = e.matches;
+    // 你可以在这里切换页面主题
+    if (isDark) {
+        goDark();
+    } else {
+        goLight();
+    }
+});

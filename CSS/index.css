@@ -1,5 +1,5 @@
 body {
-    background-color: #F3F3E0;
+    background-color: #d7edff;
     color: #183B4E;
     max-width: 1200px;
     min-width: 524px;
@@ -7,6 +7,11 @@ body {
     padding: 0 5vw;
     padding-top: 3%;
     text-align: center;
+}
+
+body.dark {
+    background-color: #2b2b2b;
+    color: white;
 }
 
 @media (min-width: 1201px) {
@@ -47,13 +52,14 @@ img:hover {
 .iconset {
     display: inline-block;
     vertical-align: top;
-    border: 2px solid #333;
+    border: 0px solid #333;
     padding: 5px 16px 16px 16px;
     border-radius: 30px;
     /*float: left;*/
     margin: 15px;
     height: 115px;
-    background-color: #FADA7A;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.25);
     transition: box-shadow 0.3s ease;
 }
 
@@ -76,10 +82,18 @@ footer {
     font-family: serif;
 }
 
+.dark footer{
+    background-color: #1e1e1e;
+}
+
 #clock {
     font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
     color: #333;
+}
+
+.dark #clock {
+    color: white;
 }
 
 #date {
@@ -89,6 +103,10 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     white-space: pre;
+}
+
+.dark #date{
+    color:lightgoldenrodyellow
 }
 
 #empty {
@@ -104,7 +122,7 @@ footer {
 @media (max-width: 500px) {
     body {
         padding: 1rem 0 0 0;
-        background-color: #fff;
+        background-color: #d7edff;
         min-width: 0;
         max-width: 90vw;
         margin: 0 auto;
@@ -122,6 +140,11 @@ footer {
         height: auto;
         background-color: transparent;
         border-radius: 0;
+        box-shadow: none;
+    }
+
+    .iconset:hover {
+        box-shadow: none;
     }
 
     #clock {
