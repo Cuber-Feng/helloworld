@@ -92,7 +92,7 @@ footer {
 }
 
 #clock {
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
     color: #333;
 }
@@ -102,7 +102,7 @@ footer {
 }
 
 #date {
-    font-size: 24px;
+    font-size: 20px;
     color: #666;
     margin-bottom: 20px;
     font-family: 'Courier New', Courier, monospace;
