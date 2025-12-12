@@ -148,6 +148,12 @@ footer {
         box-shadow: none;
     }
 
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 5px;
+    }
+
     .iconset:hover {
         box-shadow: none;
     }
