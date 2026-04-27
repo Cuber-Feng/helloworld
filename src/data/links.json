@@ -5,37 +5,37 @@
             {
                 "title": "Google Sheets",
                 "url": "https://docs.google.com/spreadsheets/u/0/",
-                "icon": "./source/googlesheet.svg"
+                "icon": "source/googlesheet.svg"
             },
             {
                 "title": "Google Docs",
                 "url": "https://docs.google.com/document/u/0/",
-                "icon": "./source/googledoc.svg"
+                "icon": "source/googledoc.svg"
             },
             {
                 "title": "Google Slides",
                 "url": "https://docs.google.com/presentation/u/0/",
-                "icon": "./source/googleslides.svg"
+                "icon": "source/googleslides.svg"
             },
             {
                 "title": "Google Mail",
                 "url": "https://mail.google.com/mail/u/0/#inbox",
-                "icon": "./source/googlemail.svg"
+                "icon": "source/googlemail.svg"
             },
             {
                 "title": "Google Translate",
                 "url": "https://translate.google.com",
-                "icon": "./source/googletranslate.svg"
+                "icon": "source/googletranslate.svg"
             },
             {
                 "title": "Google Keep",
                 "url": "https://keep.google.com/u/0/#home",
-                "icon": "./source/googlekeep.svg"
+                "icon": "source/googlekeep.svg"
             },
             {
                 "title": "Chrome Web Store",
                 "url": "https://chromewebstore.google.com/",
-                "icon": "./source/chromestore.png"
+                "icon": "source/chromestore.png"
             }
         ]
     },
@@ -45,32 +45,32 @@
             {
                 "title": "Canvas",
                 "url": "https://canvas.cityu.edu.hk/",
-                "icon": "./source/canvas.svg"
+                "icon": "source/canvas.svg"
             },
             {
                 "title": "AIMS",
                 "url": "https://banweb.cityu.edu.hk",
-                "icon": "./source/AIMS.png"
+                "icon": "source/AIMS.png"
             },
             {
                 "title": "Online Judge",
                 "url": "https://oj.cs.cityu.edu.hk/d/CS3391/",
-                "icon": "./source/oj.png"
+                "icon": "source/oj.png"
             },
             {
                 "title": "Placement Management System",
                 "url": "https://pms.cs.cityu.edu.hk/pms/",
-                "icon": "./source/PMS.png"
+                "icon": "source/PMS.png"
             },
             {
                 "title": "Important Dates",
                 "url": "https://www.cityu.edu.hk/arro/impd/impd_year.htm",
-                "icon": "./source/calendar.png"
+                "icon": "source/calendar.png"
             },
             {
                 "title": "Printer",
                 "url": "https://ccstung1.ad.cityu.edu.hk:9192/app?service=page/UserWebPrint",
-                "icon": "./source/printer.png"
+                "icon": "source/printer.png"
             }
         ]
     },
@@ -80,17 +80,17 @@
             {
                 "title": "Minesweeper",
                 "url": "https://minesweeper.online/",
-                "icon": "./source/mineswepper.png"
+                "icon": "source/mineswepper.png"
             },
             {
                 "title": "Chess",
                 "url": "https://www.chess.com/",
-                "icon": "./source/chess.com.png"
+                "icon": "source/chess.com.png"
             },
             {
                 "title": "Poki",
                 "url": "https://poki.com/zh",
-                "icon": "./source/poki.png"
+                "icon": "source/poki.png"
             }
         ]
     },
@@ -100,37 +100,37 @@
             {
                 "title": "WCA",
                 "url": "https://www.worldcubeassociation.org",
-                "icon": "./source/wca.png"
+                "icon": "source/wca.png"
             },
             {
                 "title": "Cubing.com",
                 "url": "https://cubing.com",
-                "icon": "./source/cubing.png"
+                "icon": "source/cubing.png"
             },
             {
                 "title": "Cuber's Level",
                 "url": "https://cuber-feng.github.io/cuberlevel/",
-                "icon": "./source/grade.png"
+                "icon": "source/grade.png"
             },
             {
                 "title": "cstimer",
                 "url": "https://cstimer.net",
-                "icon": "./source/cstimer2.png"
+                "icon": "source/cstimer2.png"
             },
             {
                 "title": "Cube Database",
                 "url": "https://speedcubedb.com/",
-                "icon": "./source/cubedatabase.png"
+                "icon": "source/cubedatabase.png"
             },
             {
                 "title": "Maple Timer",
                 "url": "https://cuber-feng.github.io/timer/",
-                "icon": "./source/mptimer-round.png"
+                "icon": "source/mptimer-round.png"
             },
             {
                 "title": "BLD Memory",
                 "url": "https://cuber-feng.github.io/BLD-memory/",
-                "icon": "./source/memory-round.png"
+                "icon": "source/memory-round.png"
             }
         ]
     },
@@ -140,42 +140,42 @@
             {
                 "title": "YouTube",
                 "url": "https://www.youtube.com",
-                "icon": "./source/youtube.svg"
+                "icon": "source/youtube.svg"
             },
             {
                 "title": "Whatsapp",
                 "url": "https://www.whatsapp.com",
-                "icon": "./source/whatsapp.svg"
+                "icon": "source/whatsapp.svg"
             },
             {
                 "title": "Instagram",
                 "url": "https://www.instagram.com",
-                "icon": "./source/instagram.svg"
+                "icon": "source/instagram.svg"
             },
             {
                 "title": "Facebook",
                 "url": "https://www.facebook.com",
-                "icon": "./source/facebook.svg"
+                "icon": "source/facebook.svg"
             },
             {
                 "title": "Threads",
                 "url": "https://www.threads.net",
-                "icon": "./source/threads.svg"
+                "icon": "source/threads.svg"
             },
             {
                 "title": "Reddit",
                 "url": "https://www.reddit.com",
-                "icon": "./source/reddit.svg"
+                "icon": "source/reddit.svg"
             },
             {
                 "title": "Bilibili",
                 "url": "https://www.bilibili.com",
-                "icon": "./source/bilibili.png"
+                "icon": "source/bilibili.png"
             },
             {
                 "title": "Rednote",
                 "url": "https://creator.xiaohongshu.com/new/home?source=official",
-                "icon": "./source/rednote.png"
+                "icon": "source/rednote.png"
             }
         ]
     },
@@ -185,22 +185,22 @@
             {
                 "title": "ChatGPT",
                 "url": "https://www.chatgpt.com",
-                "icon": "./source/chatgpt.svg"
+                "icon": "source/chatgpt.svg"
             },
             {
                 "title": "Gemini",
                 "url": "https://www.gemini.com",
-                "icon": "./source/gemini.png"
+                "icon": "source/gemini.png"
             },
             {
                 "title": "ChatPDF",
                 "url": "https://www.chatpdf.com",
-                "icon": "./source/chatpdf.png"
+                "icon": "source/chatpdf.png"
             },
             {
                 "title": "LeeCode",
                 "url": "https://www.leetcode.com",
-                "icon": "./source/leetcode.png"
+                "icon": "source/leetcode.png"
             }
         ]
     },
@@ -210,42 +210,42 @@
             {
                 "title": "Canva",
                 "url": "https://www.canva.com/",
-                "icon": "./source/canva.svg"
+                "icon": "source/canva.svg"
             },
             {
                 "title": "MilaNote",
                 "url": "https://app.milanote.com/1UZrw11EkGfGbF/home",
-                "icon": "./source/mila.png"
+                "icon": "source/mila.png"
             },
             {
                 "title": "Photopea",
                 "url": "https://www.photopea.com/",
-                "icon": "./source/photopea.png"
+                "icon": "source/photopea.png"
             },
             {
                 "title": "GitHub",
                 "url": "https://github.com/Cuber-Feng",
-                "icon": "./source/github.svg"
+                "icon": "source/github.svg"
             },
             {
                 "title": "Convertio",
                 "url": "https://convertio.co/zh/",
-                "icon": "./source/convertio.png"
+                "icon": "source/convertio.png"
             },
             {
                 "title": "Send Anywhere",
                 "url": "https://send-anywhere.com/",
-                "icon": "./source/sendanywhere.png"
+                "icon": "source/sendanywhere.png"
             },
             {
                 "title": "GoatCounter",
                 "url": "https://2017feng35.goatcounter.com/",
-                "icon": "./source/goatcounter.svg"
+                "icon": "source/goatcounter.svg"
             },
             {
                 "title": "ColorHunt",
                 "url": "https://colorhunt.co/",
-                "icon": "./source/colorhunt.png"
+                "icon": "source/colorhunt.png"
             }
         ]
     },
@@ -255,17 +255,17 @@
             {
                 "title": "ICON8",
                 "url": "https://icons8.com/icons/",
-                "icon": "./source/icon8.png"
+                "icon": "source/icon8.png"
             },
             {
                 "title": "Pixabay",
                 "url": "https://pixabay.com/",
-                "icon": "./source/pixabay.png"
+                "icon": "source/pixabay.png"
             },
             {
                 "title": "YouTube Download",
                 "url": "https://youtube.iiilab.com",
-                "icon": "./source/youtubedownload.png"
+                "icon": "source/youtubedownload.png"
             }
         ]
     }
