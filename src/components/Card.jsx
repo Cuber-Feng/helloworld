@@ -4,7 +4,7 @@ import linkData from '../data/links.json';
 const Card = () => {
     console.log("Current linkData:", linkData);
     return (
-        <>
+        <main>
             {linkData.map((section, index) => (
                 <div key={index} className="iconset">
                     <h3>
@@ -23,7 +23,7 @@ const Card = () => {
                     </>
                 </div>
             ))}
-        </>
+        </main>
     );
 };
 
