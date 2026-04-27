@@ -9,8 +9,22 @@
   <link rel="icon" type="image/png" href="/helloworld/head/home.png">
   <link rel="apple-touch-icon" href="/helloworld/head/home.png">
   <title>Hi, Cody</title>
-  <script type="module" crossorigin src="/helloworld/assets/index-BdbdEjtN.js"></script>
-  <link rel="stylesheet" crossorigin href="/helloworld/assets/index-RZS-PRHF.css">
+  <script>
+    (function () {
+      try {
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = systemDark ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        
+        // 3. 为了让 React 初始化时拿到正确的值，可以挂载到全局
+        window.__INITIAL_THEME__ = theme;
+      } catch (e) {
+        console.error('Theme initialization failed');
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/helloworld/assets/index-qMBpByLO.js"></script>
+  <link rel="stylesheet" crossorigin href="/helloworld/assets/index-Cju_duXt.css">
 </head>
 
 <body>

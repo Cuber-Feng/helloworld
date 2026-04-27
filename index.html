@@ -9,6 +9,20 @@
   <link rel="icon" type="image/png" href="/head/home.png">
   <link rel="apple-touch-icon" href="/head/home.png">
   <title>Hi, Cody</title>
+  <script>
+    (function () {
+      try {
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = systemDark ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        
+        // 3. 为了让 React 初始化时拿到正确的值，可以挂载到全局
+        window.__INITIAL_THEME__ = theme;
+      } catch (e) {
+        console.error('Theme initialization failed');
+      }
+    })();
+  </script>
 </head>
 
 <body>
