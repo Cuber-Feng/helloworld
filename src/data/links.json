@@ -5,37 +5,37 @@
             {
                 "title": "Google Sheets",
                 "url": "https://docs.google.com/spreadsheets/u/0/",
-                "icon": "source/googlesheet.svg"
+                "icon": "source/googlesheet.webp"
             },
             {
                 "title": "Google Docs",
                 "url": "https://docs.google.com/document/u/0/",
-                "icon": "source/googledoc.svg"
+                "icon": "source/googledoc.webp"
             },
             {
                 "title": "Google Slides",
                 "url": "https://docs.google.com/presentation/u/0/",
-                "icon": "source/googleslides.svg"
+                "icon": "source/googleslides.webp"
             },
             {
                 "title": "Google Mail",
                 "url": "https://mail.google.com/mail/u/0/#inbox",
-                "icon": "source/googlemail.svg"
+                "icon": "source/googlemail.webp"
             },
             {
                 "title": "Google Translate",
                 "url": "https://translate.google.com",
-                "icon": "source/googletranslate.svg"
+                "icon": "source/googletranslate.webp"
             },
             {
                 "title": "Google Keep",
                 "url": "https://keep.google.com/u/0/#home",
-                "icon": "source/googlekeep.svg"
+                "icon": "source/googlekeep.webp"
             },
             {
                 "title": "Chrome Web Store",
                 "url": "https://chromewebstore.google.com/",
-                "icon": "source/chromestore.png"
+                "icon": "source/chromestore.webp"
             }
         ]
     },
@@ -45,7 +45,7 @@
             {
                 "title": "Canvas",
                 "url": "https://canvas.cityu.edu.hk/",
-                "icon": "source/canvas.svg"
+                "icon": "source/canvas.webp"
             },
             {
                 "title": "AIMS",
@@ -55,7 +55,7 @@
             {
                 "title": "Online Judge",
                 "url": "https://oj.cs.cityu.edu.hk/d/CS3391/",
-                "icon": "source/oj.png"
+                "icon": "source/oj.webp"
             },
             {
                 "title": "Placement Management System",
@@ -110,7 +110,7 @@
             {
                 "title": "Poki",
                 "url": "https://poki.com/zh",
-                "icon": "source/poki.png"
+                "icon": "source/poki.webp"
             }
         ]
     },
@@ -160,12 +160,12 @@
             {
                 "title": "YouTube",
                 "url": "https://www.youtube.com",
-                "icon": "source/youtube.svg"
+                "icon": "source/youtube.webp"
             },
             {
                 "title": "Whatsapp",
                 "url": "https://www.whatsapp.com",
-                "icon": "source/whatsapp.svg"
+                "icon": "source/whatsapp.webp"
             },
             {
                 "title": "Telegram",
@@ -175,32 +175,32 @@
             {
                 "title": "Instagram",
                 "url": "https://www.instagram.com",
-                "icon": "source/instagram.svg"
+                "icon": "source/instagram.webp"
             },
             {
                 "title": "Facebook",
                 "url": "https://www.facebook.com",
-                "icon": "source/facebook.svg"
+                "icon": "source/facebook.webp"
             },
             {
                 "title": "Threads",
                 "url": "https://www.threads.net",
-                "icon": "source/threads.svg"
+                "icon": "source/threads.webp"
             },
             {
                 "title": "Reddit",
                 "url": "https://www.reddit.com",
-                "icon": "source/reddit.svg"
+                "icon": "source/reddit.webp"
             },
             {
                 "title": "Bilibili",
                 "url": "https://www.bilibili.com",
-                "icon": "source/bilibili.png"
+                "icon": "source/bilibili.webp"
             },
             {
                 "title": "Rednote",
                 "url": "https://creator.xiaohongshu.com/new/home?source=official",
-                "icon": "source/rednote.png"
+                "icon": "source/rednote.webp"
             }
         ]
     },
@@ -210,7 +210,7 @@
             {
                 "title": "ChatGPT",
                 "url": "https://www.chatgpt.com",
-                "icon": "source/chatgpt.svg"
+                "icon": "source/chatgpt.webp"
             },
             {
                 "title": "Gemini",
@@ -235,12 +235,12 @@
             {
                 "title": "Canva",
                 "url": "https://www.canva.com/",
-                "icon": "source/canva.svg"
+                "icon": "source/canva.webp"
             },
             {
                 "title": "MilaNote",
                 "url": "https://app.milanote.com/1UZrw11EkGfGbF/home",
-                "icon": "source/mila.png"
+                "icon": "source/mila.webp"
             },
             {
                 "title": "Photopea",
@@ -250,7 +250,7 @@
             {
                 "title": "GitHub",
                 "url": "https://github.com/Cuber-Feng",
-                "icon": "source/github.svg"
+                "icon": "source/github.webp"
             },
             {
                 "title": "Convertio",
