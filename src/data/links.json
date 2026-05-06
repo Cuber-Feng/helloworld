@@ -60,7 +60,7 @@
             {
                 "title": "Placement Management System",
                 "url": "https://pms.cs.cityu.edu.hk/pms/",
-                "icon": "source/PMS.png"
+                "icon": "source/PMS.webp"
             },
             {
                 "title": "Important Dates",
@@ -71,6 +71,26 @@
                 "title": "Printer",
                 "url": "https://ccstung1.ad.cityu.edu.hk:9192/app?service=page/UserWebPrint",
                 "icon": "source/printer.png"
+            }
+        ]
+    },
+    {
+        "category": "Email",
+        "links": [
+            {
+                "title": "Yahoo Mail",
+                "url": "https://mail.yahoo.com/",
+                "icon": "source/yahoomail.webp"
+            },
+            {
+                "title": "QQ Mail",
+                "url": "https://mail.qq.com/",
+                "icon": "source/qqmail.webp"
+            },
+            {
+                "title": "Outlook",
+                "url": "https://outlook.live.com/mail/",
+                "icon": "source/outlook.webp"
             }
         ]
     },
@@ -146,6 +166,11 @@
                 "title": "Whatsapp",
                 "url": "https://www.whatsapp.com",
                 "icon": "source/whatsapp.svg"
+            },
+            {
+                "title": "Telegram",
+                "url": "https://web.telegram.org",
+                "icon": "source/telegram.png"
             },
             {
                 "title": "Instagram",
@@ -266,6 +291,36 @@
                 "title": "YouTube Download",
                 "url": "https://youtube.iiilab.com",
                 "icon": "source/youtubedownload.png"
+            }
+        ]
+    },
+    {
+        "category": "Network",
+        "links": [
+            {
+                "title": "Fast.com",
+                "url": "https://fast.com/",
+                "icon": "source/fast.com.png"
+            },
+            {
+                "title": "阿部 寛",
+                "url": "https://abehiroshi.la.coocan.jp/",
+                "icon": "source/abe.webp"
+            },
+            {
+                "title": "My IP",
+                "url": "https://ip.me/",
+                "icon": "source/ip.me.png"
+            },
+            {
+                "title": "IT Dog",
+                "url": "https://www.itdog.cn/",
+                "icon": "source/itdog.png"
+            },
+            {
+                "title": "RackNerd",
+                "url": "https://www.racknerd.com/",
+                "icon": "source/racknerd.webp"
             }
         ]
     }
