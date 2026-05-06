@@ -50,7 +50,7 @@
             {
                 "title": "AIMS",
                 "url": "https://banweb.cityu.edu.hk",
-                "icon": "source/AIMS.png"
+                "icon": "source/AIMS.webp"
             },
             {
                 "title": "Online Judge",
@@ -100,7 +100,7 @@
             {
                 "title": "Minesweeper",
                 "url": "https://minesweeper.online/",
-                "icon": "source/mineswepper.png"
+                "icon": "source/minesweeper.webp"
             },
             {
                 "title": "Chess",
@@ -120,12 +120,12 @@
             {
                 "title": "WCA",
                 "url": "https://www.worldcubeassociation.org",
-                "icon": "source/wca.png"
+                "icon": "source/wca.webp"
             },
             {
                 "title": "Cubing.com",
                 "url": "https://cubing.com",
-                "icon": "source/cubing.png"
+                "icon": "source/cubing.webp"
             },
             {
                 "title": "Cuber's Level",
@@ -135,12 +135,12 @@
             {
                 "title": "cstimer",
                 "url": "https://cstimer.net",
-                "icon": "source/cstimer2.png"
+                "icon": "source/cstimer.webp"
             },
             {
                 "title": "Cube Database",
                 "url": "https://speedcubedb.com/",
-                "icon": "source/cubedatabase.png"
+                "icon": "source/cubedatabase.webp"
             },
             {
                 "title": "Maple Timer",
