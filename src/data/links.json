@@ -220,12 +220,12 @@
             {
                 "title": "ChatPDF",
                 "url": "https://www.chatpdf.com",
-                "icon": "source/chatpdf.png"
+                "icon": "source/chatpdf.webp"
             },
             {
                 "title": "LeeCode",
                 "url": "https://www.leetcode.com",
-                "icon": "source/leetcode.png"
+                "icon": "source/leetcode.webp"
             }
         ]
     },
@@ -290,7 +290,7 @@
             {
                 "title": "YouTube Download",
                 "url": "https://youtube.iiilab.com",
-                "icon": "source/youtubedownload.png"
+                "icon": "source/youtubedownload.webp"
             }
         ]
     },
@@ -300,7 +300,7 @@
             {
                 "title": "Fast.com",
                 "url": "https://fast.com/",
-                "icon": "source/fast.com.png"
+                "icon": "source/fast.com.webp"
             },
             {
                 "title": "阿部 寛",
@@ -315,7 +315,7 @@
             {
                 "title": "IT Dog",
                 "url": "https://www.itdog.cn/",
-                "icon": "source/itdog.png"
+                "icon": "source/itdog.webp"
             },
             {
                 "title": "RackNerd",
