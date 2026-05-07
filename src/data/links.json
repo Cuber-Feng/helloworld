@@ -215,7 +215,7 @@
             {
                 "title": "Gemini",
                 "url": "https://gemini.google.com/app?new=1",
-                "icon": "source/gemini.png"
+                "icon": "source/gemini.webp"
             },
             {
                 "title": "ChatPDF",
