@@ -18,11 +18,6 @@
                 "icon": "source/googleslides.webp"
             },
             {
-                "title": "Google Mail",
-                "url": "https://mail.google.com/mail/u/0/#inbox",
-                "icon": "source/googlemail.webp"
-            },
-            {
                 "title": "Google Translate",
                 "url": "https://translate.google.com",
                 "icon": "source/googletranslate.webp"
@@ -36,6 +31,16 @@
                 "title": "Chrome Web Store",
                 "url": "https://chromewebstore.google.com/",
                 "icon": "source/chromestore.webp"
+            },
+            {
+                "title": "Google Calendar",
+                "url": "https://calendar.google.com/calendar/u/0/r",
+                "icon": "source/googlecalendar.webp"
+            },
+            {
+                "title": "Google Drive",
+                "url": "https://drive.google.com/drive/u/0/my-drive",
+                "icon": "source/googledrive.png"
             }
         ]
     },
@@ -58,11 +63,6 @@
                 "icon": "source/oj.webp"
             },
             {
-                "title": "Placement Management System",
-                "url": "https://pms.cs.cityu.edu.hk/pms/",
-                "icon": "source/PMS.webp"
-            },
-            {
                 "title": "Important Dates",
                 "url": "https://www.cityu.edu.hk/arro/impd/impd_year.htm",
                 "icon": "source/calendar.png"
@@ -77,6 +77,11 @@
     {
         "category": "Email",
         "links": [
+            {
+                "title": "Google Mail",
+                "url": "https://mail.google.com/mail/u/0/#inbox",
+                "icon": "source/googlemail.webp"
+            },
             {
                 "title": "Yahoo Mail",
                 "url": "https://mail.yahoo.com/",
