@@ -1,0 +1,197 @@
+[
+    {
+        "DST": false,
+        "cities": [
+            {
+                "tz": 0,
+                "names": [
+                    "London",
+                    "Dublin",
+                    "Lisbon"
+                ]
+            },
+            {
+                "tz": 1,
+                "names": [
+                    "Berlin",
+                    "Amsterdam",
+                    "Brussels",
+                    "Budapest",
+                    "Madrid",
+                    "Paris",
+                    "Stockholm",
+                    "Rome",
+                    "Prague",
+                    "Warsaw"
+                ]
+            },
+            {
+                "tz": 2,
+                "names": [
+                    "Athens",
+                    "Kyiv",
+                    "Helsinki",
+                    "Jerusalem",
+                    "Cairo"
+                ]
+            },
+            {
+                "tz": 3,
+                "names": [
+                    "Moscow",
+                    "Istanbul",
+                    "Doha, Qatar"
+                ]
+            },
+            {
+                "tz": 4,
+                "names": [
+                    "Dubai"
+                ]
+            },
+            {
+                "tz": 5,
+                "names": [
+                    "Karachi, Pakistan",
+                    "Tashkent, Uzbekistan",
+                    "Almaty, Kazakhstan"
+                ]
+            },
+            {
+                "tz": 6,
+                "names": [
+                    "Dhaka, Bangladesh"
+                ]
+            },
+            {
+                "tz": 7,
+                "names": [
+                    "Bangkok",
+                    "Hanoi",
+                    "Jakarta"
+                ]
+            },
+            {
+                "tz": 8,
+                "names": [
+                    "Hong Kong",
+                    "Taipei",
+                    "Kaohsiung",
+                    "Singapore",
+                    "Kuala Lumpur"
+                ]
+            },
+            {
+                "tz": 9,
+                "names": [
+                    "Tokyo",
+                    "Osaka",
+                    "Yokohama",
+                    "Kyoto",
+                    "Nara",
+                    "Seoul",
+                    "Busan"
+                ]
+            },
+            {
+                "tz": 10,
+                "names": [
+                    "Sydney",
+                    "Melbourne",
+                    "Brisbane"
+                ]
+            },
+            {
+                "tz": 11,
+                "names": [
+                    "Honiara"
+                ]
+            },
+            {
+                "tz": 12,
+                "names": [
+                    "Wellington",
+                    "Auckland"
+                ]
+            },
+            {
+                "tz": -1,
+                "names": [
+                    "Praia"
+                ]
+            },
+            {
+                "tz": -2,
+                "names": [
+                    "Saint-Pierre"
+                ]
+            },
+            {
+                "tz": -3,
+                "names": [
+                    "Sao Paulo",
+                    "Brasilia"
+                ]
+            },
+            {
+                "tz": -4,
+                "names": [
+                    "Santiago"
+                ]
+            },
+            {
+                "tz": -5,
+                "names": [
+                    "New York",
+                    "Toronto",
+                    "Miami"
+                ]
+            },
+            {
+                "tz": -6,
+                "names": [
+                    "Chicago",
+                    "Mexico City",
+                    "San Jose"
+                ]
+            },
+            {
+                "tz": -7,
+                "names": [
+                    "Denver",
+                    "Phoenix",
+                    "Calgary",
+                    "Edmonton"
+                ]
+            },
+            {
+                "tz": -8,
+                "names": [
+                    "Los Angeles",
+                    "San Francisco",
+                    "Seattle",
+                    "Vancouver"
+                ]
+            },
+            {
+                "tz": -9,
+                "names": [
+                    "Anchorage",
+                    "Fairbanks"
+                ]
+            },
+            {
+                "tz": -10,
+                "names": [
+                    "Honolulu"
+                ]
+            },
+            {
+                "tz": -11,
+                "names": [
+                    "Pago Pago"
+                ]
+            }
+        ]
+    }
+]
