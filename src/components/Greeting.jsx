@@ -4,6 +4,7 @@ import timezones from "../data/timezone.json";
 const Greeting = () => {
     const [utc, setUTC] = useState((new Date()).getUTCHours());
     const [morningCity, setMorCity] = useState(null);
+    // eslint-disable-next-line no-unused-vars
     const [nightCity, setNigCity] = useState(null);
 
     useEffect(() => {
@@ -32,7 +33,7 @@ const Greeting = () => {
     // console.log(timezones[0].cities[4].names);
     return (
         <div>
-            <div style={{ fontSize: '50px' }}>Good Morning, {morningCity}</div>
+            <div style={{ fontSize: '50px', fontFamily: "'Georgia', Courier, monospace" }}>Good Morning, {morningCity}</div>
             {/* <div style={{ fontSize: '30px' }}>Good Night, {nightCity}</div> */}
         </div>
     );
