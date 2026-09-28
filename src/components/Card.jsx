@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import linkData from '../data/links.json';
 
 const Card = () => {

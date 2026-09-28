@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 
-import Clock from './components/Clock';
 import Card from './components/Card';
 import Banner from './components/Banner';
+import Greeting from './components/Greeting';
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <Clock />
+      <Greeting />
       <Card />
       <Banner />
     </>

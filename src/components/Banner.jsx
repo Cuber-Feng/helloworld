@@ -1,9 +1,11 @@
-import React from 'react';
+import Clock from './Clock';
 
 const Banner = () => {
+
     return (
         <footer>
-            <p>「寧鳴而死，不默而生」 —— 范仲淹，《靈烏賦》</p>
+            <Clock />
+            <p>寧鳴而死，不默而生</p>
         </footer>
     );
 };
