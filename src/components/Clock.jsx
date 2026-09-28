@@ -23,7 +23,7 @@ const Clock = () => {
 
     // console.log(timezones[0].cities[4].names);
     return (
-        <div>
+        <div className='onlypc'>
             <div id='clock'>
                 {hours}:{minutes}:{seconds}
             </div>

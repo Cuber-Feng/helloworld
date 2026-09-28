@@ -111,7 +111,7 @@ footer {
     font-family: serif;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 #clock {
@@ -119,6 +119,10 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     color: var(--clock);
     text-align: left;
+}
+
+#greet {
+    font-size: 50px;
 }
 
 #date {
@@ -197,6 +201,10 @@ footer {
 
     #clock {
         font-size: 3.2rem;
+    }
+
+    #greet {
+        font-size: 2rem;
     }
 
     #date {
