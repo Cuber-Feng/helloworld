@@ -23,14 +23,14 @@ const Clock = () => {
 
     // console.log(timezones[0].cities[4].names);
     return (
-        <div className='onlypc'>
-            <div id='clock'>
+        <>
+            <div id='date' className='onlypc'>
+                {formattedDate} &nbsp; {weekday}
+            </div>
+            <div id='clock' className='onlypc'>
                 {hours}:{minutes}:{seconds}
             </div>
-            <div id='date'>
-                {formattedDate} &nbsp;&nbsp; {weekday}
-            </div>
-        </div>
+        </>
     );
 };
 
