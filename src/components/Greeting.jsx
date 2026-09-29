@@ -4,14 +4,13 @@ import timezones from "../data/timezone.json";
 const Greeting = () => {
     const [utc, setUTC] = useState((new Date()).getUTCHours());
     const [morningCity, setMorCity] = useState(null);
-    const hourmsec = 1000 * 60 * 60;
     // eslint-disable-next-line no-unused-vars
     const [nightCity, setNigCity] = useState(null);
 
     useEffect(() => {
         const utcClock = setInterval(() => {
             setUTC((new Date()).getUTCHours());
-        }, hourmsec);
+        }, 60000);
         return () => clearInterval(utcClock);
     }, []);
 
@@ -28,7 +27,8 @@ const Greeting = () => {
     }
     function getNigCityName(utcH) {
         const cities = timezones[0].cities[(2 - utcH + 24) % 24].names;
-        return cities[Math.floor(Math.random() * cities.length)];
+        const cityIndex = Math.floor(Math.random() * cities.length);
+        return cities[cityIndex];
     }
 
     // console.log(timezones[0].cities[4].names);

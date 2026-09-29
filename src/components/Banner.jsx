@@ -1,7 +1,6 @@
 import Clock from './Clock';
 
 const Banner = () => {
-
     return (
         <footer>
             <Clock />
