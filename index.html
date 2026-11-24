@@ -4,10 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="mask-icon" href="/head/home.png">
+
+  <link rel="icon" type="image/png" href="/head/paint.png">
+  <link rel="apple-touch-icon" href="/head/paint.png">
+  
+  <!-- <link rel="icon" type="image/svg+xml" href="/head/home.svg"> -->
+  
+  <!-- <link rel="mask-icon" href="/head/home.png">
   <link rel="icon" href="/head/home.svg" type="image/svg+xml">
   <link rel="icon" type="image/png" href="/head/home.png">
-  <link rel="apple-touch-icon" href="/head/home.png">
+  <link rel="apple-touch-icon" href="/head/home.png"> -->
   <title>Hi, Cody</title>
   <script>
     (function () {
@@ -15,7 +21,7 @@
         const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         const theme = systemDark ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', theme);
-        
+
         // 3. 为了让 React 初始化时拿到正确的值，可以挂载到全局
         window.__INITIAL_THEME__ = theme;
       } catch (e) {
